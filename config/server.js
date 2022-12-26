@@ -4,4 +4,5 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  url:"https://am-strapi-api-production.up.railway.app"
 });
